@@ -1,9 +1,9 @@
 /**
 * Minimo Website
-* @author: KAWSER AHAMED
-* @version: 0.0.1
-* @Date: 25-01-2021
-*/
+* author: KAWSER AHAMED
+* version: 0.0.1
+* Date: 25-01-2021
+**/
 
 /* ============================
     DEFULTE CSS
@@ -68,7 +68,7 @@ img{
     margin: 0 auto;
 }
 .blog-container{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -162,41 +162,108 @@ img{
 }
 .post{
     float: left;
-    width: 47%;
+    width: 45%;
 }
 .post-2{
     float: right;
-    width: 47%;
+    width: 45%;
 
 }
 .blog-section img{
     width: 100%;
 }
-#blog{
-    margin-bottom: ;
-}
-
-
 
   /* =========================
+     NEWSLETTER STYLE
+  ===========================*/ 
+.newsletter{
+    background: #e2d8d8;
+    padding: 70px 0;
+    text-align: center;
+}
+.newsletter h2{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 70px;
+}
+.box{
+    text-align: center;
+    position: relative;
+    width: 33%;
+    margin: 0 auto;
+}
+.box input{
+    border: none;
+    border-bottom: 1px solid #583c3c;
+    background-color: transparent;
+    width: 100%;
+    padding: 0 0 9px 0;
+}
+.box input:focus{
+    outline: none;
+}
+.box input::placeholder{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #626262;
+    text-transform: capitalize;
+}
+
+.submit-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 4px);
+}
+.submit-button button{
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    background: transparent;
+}
+
+/* BUTTON */
+.sing-button{
+    margin: 50px 0;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.sing-button button{
+ padding: 18px 60px;
+ font-size: 20px;
+ cursor: pointer;
+ background: #fff;
+ border: 1px solid #000;
+
+}
+.sing-button button:active{
+    border: none;
+}
+
+ /* =========================
       FOOTER STYLE
   ======================== */
-/*  
+ 
 footer{
     background: #f0f0f0;
+    padding: 30px 0;
 }
 .footer-menu{
   width: 40%;
   float: left;
-  margin-top: 22px;
 }
 .footer-menu ul li{
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 30px;
     vertical-align: center;
 }
 .footer-menu ul li a{
     color: #000;
+    font-size: 14px;
 }
 .footer-menu ul li a:hover{
     color: #626262;
@@ -210,47 +277,10 @@ footer{
 }
 .footer-social-menu ul li{
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 25px;
 }
 .footer-social-menu ul li span{
     color: #000;
+    margin-right: 10px;
     
-} */
-
-
-
-  /* =========================
-     NEWSLETTER STYLE
-  ===========================*/
-/* 
-.newsletter{
-    background: #e2d8d8;
-    padding: 60px 0;
-    margin-bottom: 80px;
 }
-.box h1{
-   margin-bottom: 50px;
-}
-.box{
-    text-align: center;
-}
-.box input{
-    padding:10px 10px;
-    border: none;
-    border-bottom:2px solid #583c3c;
-    background-color:#e2d8d8;
-    font-size: 17px;
-}
-.box input placeholder{
-    font-size: 20px;
-}
-
-.sing-button{
-    margin: 50px 0;
-    text-align: center;
-}
-.button{
- padding: 18px 60px;
- font-size: 19px;
- cursor: pointer;
-} */
